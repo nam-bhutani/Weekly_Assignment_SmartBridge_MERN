@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Express server",
+  "main": "Task3-4-5.js",
+  "scripts": {
+    "start": "node Task3-4-5.js",
+    "dev": "nodemon Task3-4-5.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
+
