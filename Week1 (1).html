@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        p {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            text-align: justify;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #333;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        .styled-button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            margin: 20px auto;
+            width: 50%;
+            text-align: left;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is the first paragraph, providing an introduction to the webpage. It shows basic p tag and its styling.</p>
+    <p>This is the second paragraph, as provided to write in the question.</p>
+    
+    <div class="image-container">
+        <img src="https://miro.medium.com/v2/resize:fit:792/1*lJ32Bl-lHWmNMUSiSq17gQ.png" alt="Placeholder Image">
+        <div class="caption">This is a sample caption for image of HTML and CSS.</div>
+    </div>
+    
+    <button class="styled-button">Click Me</button>
+    
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+        </tr>
+    </table>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="reg">Registration Number</label>
+        <input type="reg" id="reg" name="reg" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
